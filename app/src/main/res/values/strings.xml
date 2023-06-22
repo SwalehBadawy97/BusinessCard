@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Business Card</string>
+    <string name="name">Swaleh Badawy</string>
+    <string name="title">Software Engineer</string>
+    <string name="telephone">+254707714794</string>
+    <string name="social">\@Dody97</string>
+    <string name="email">email@email.com</string>
+</resources>
