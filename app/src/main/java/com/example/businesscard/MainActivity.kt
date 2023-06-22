@@ -52,7 +52,7 @@ fun BusinessCard(name: String, title: String, telephone: Long, social: String, e
         .fillMaxWidth()
         .fillMaxHeight()
         .background(color = Color(0xFF37596D)),
-        horizontalAlignment = Alignment.CenterHorizontally,
+        horizontalAlignment = CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ){
         val image = painterResource(id = R.drawable.android_logo)
@@ -81,7 +81,7 @@ fun BusinessCard(name: String, title: String, telephone: Long, social: String, e
     Column(modifier = Modifier
         .fillMaxWidth()
         .padding(top = 650.dp, bottom = 50.dp),
-        horizontalAlignment = Alignment.CenterHorizontally,
+        horizontalAlignment = CenterHorizontally,
         verticalArrangement = Arrangement.Center) {
 
         Row(modifier = Modifier
